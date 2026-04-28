@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "WitchyMama";
+  src: url('/fonts/WitchyMama.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    height: 50px;
+    background-color: #f7f6bb;
+    color: #114232;
+    font-family: "Witchy Mama";
+}
