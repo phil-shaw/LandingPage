@@ -50,6 +50,7 @@ header {
   color: #114232;
   justify-content: center;
   margin:20px;
+  margin-bottom: 0px;
   align-items: center;
 }
 
@@ -90,7 +91,7 @@ header {
 }
 
 .fleet{
-  height: 700px;
+  height: 800px;
   margin: 20px;
   border-radius: 20px;
   display: flex;
@@ -100,6 +101,14 @@ header {
 .fleet-row {
   display: flex;
   gap: 10px;
+}
+
+.fleet-row h1 {
+  margin:30px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #114232;
 }
 
 .aircraft {
@@ -116,5 +125,8 @@ header {
 
 .aircraft p {
   margin:20px;
+  margin-bottom: 0px;
   font-size: 20px;
 }
+
+
