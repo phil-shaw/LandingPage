@@ -5,9 +5,86 @@
     font-style: normal;
 }
 
+html {
+  background-color: white;
+}
+
 header {
     height: 50px;
+    margin: 20px;
+    padding:20px;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
     background-color: #f7f6bb;
     color: #114232;
     font-family: "Witchy Mama";
+}
+
+.aboutus {
+  height: 400px;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction:column;
+  background-color: #f7f6bb;
+}
+
+.row{
+  display: flex;
+  gap: 10px;
+}
+
+.aboutus-row1 {
+  display: flex;
+  gap: 10px;
+}
+
+.aboutus-row2 {
+  display: flex;
+  gap: 10px;
+}
+
+.aboutus-row1-item {
+  flex: 1;
+  color: #114232;
+  justify-content: center;
+  margin:20px;
+  align-items: center;
+}
+
+.aboutus-row2-item {
+  flex: 1;
+  width: 300px;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  background-color: #114232;
+  color: #fcdc2a;
+  justify-content: center;
+  align-items: center;
+}
+
+.amy{
+  width:150px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.aboutusItem h2 {
+  margin: 20px;
+  color: #fcdc2a;
+}
+
+.aboutusItem p {
+  font-size: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  color: #fcdc2a;;
+}
+
+.fse {
+  margin : 20px;
+  width:250px;
 }
