@@ -129,4 +129,20 @@ header {
   font-size: 20px;
 }
 
+.quote {
+  height: 100px;
+  margin: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction:column;
+  background-color: #114232;
+}
+
+.quote p{
+  font-size: 25px;
+  font-style: italic;
+  color:#fcdc2a;
+  vertical-align: middle;
+  text-align: center;
+}
 
